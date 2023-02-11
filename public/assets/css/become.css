@@ -1,12 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+   
+    
 }
 
 body {
     font-family: 'Acme', sans-serif;
-   
+    min-height: 100vh;
+    background-color: #EFEFEF;
 }
+ 
 
 /* Navbar */
 a{
@@ -122,17 +126,18 @@ a{
     }
  }
 
+ /* KONTEN */
 .container-2 {
     background-color: #598EF3;
     width: 100%;
-    height: 50vh;
+    height: 350px;
     color: white;
-    box-sizing: border-box;
+   
 }
 
 .container-2 .konten-2 {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 90px;
 }
 
 .container-2 .konten-2 h2{
@@ -141,127 +146,198 @@ a{
 
 .container-2 .konten-2 h4{
     font-size: 20px;
-    padding-top: 1rem;
+    padding: 1rem;
 }
 
 .container-2 .konten-2 p{
     font-size: 19px;
     margin-top: 1.5rem;
-    padding-top: 15px;
     background-color: #111C2C;
     border-radius: 30px;
-    height: 2.2rem;
-    width: 13rem;
-    margin-left: 43%;
+    padding: 13px 65px 13px 65px;
+    /* padding-left: 2rem; */
+    /* padding-right: 2rem; */
+    width: fit-content;
+    
+    margin: auto;
+   
+    
 }
 
-.container-2 .konten-2 img {
-    scale: 65%;
+/* .container-2 .konten-2 img {
+    scale: 70%;
     position: absolute;
     bottom: 30%;
     left: 77%;
-}
+} */
+
+/* Container 3 */
 
 .container-3 {
     background-color: #13141F;
     width: 100%;
-    height: 40vh;
+    height: 350px;
     color: white;
-    box-sizing: border-box;
+    
 }
 
 .container-3 .konten-3 {
-    text-align: left;
-    margin-left: 35%;
-    padding-top: 7rem;
+    text-align: center;
+    padding-top: 6rem;
 }
 
 .container-3 .konten-3 p{
     padding-top: 1rem;
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-weight: 100;
     color: #808080;
 }
 
-.container-4 {
-    background-color: #21212C;
+/* Card about us */
+
+.container-33{
+   background-color: #21212C;
+   height: 600px;
+   color: #FFF;
+}
+.container-33 .konten-33 {
+  text-align: center;
+  padding-top: 4rem;
+ 
+}
+
+.slide-container{
+    max-width: 1120px;
     width: 100%;
-    height: 45vh;
-    color: white;
-    box-sizing: border-box;
-}
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
 
-.container-4 .konten-4 {
-    text-align: center;
-}
-
-.container-4 .konten-4 h2 {
-    padding-top: 4rem;
-}
-
-.grid {
-    width: 95%;
-    margin: 0 15px 0;
-    padding-bottom: 10px;
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    align-items: start;
-    /* overflow: scroll; */
   }
-  
-  .grid-item {
-    /* background-color: #fff; */
-    border-radius: 0.4rem;
+  .slide-content{
+    margin: 0 40px;
     overflow: hidden;
-    /* box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1); */
-    cursor: pointer;
-    transition: 0.2s;
-    margin-top: 6rem;
-    margin-left: 10px;
+    border-radius: 25px;
   }
-  
-  .grid-item h1 {
-    font-size: 18px;
+  .card{
+    border-radius: 25px;
+    background-color: #FFF;
   }
-  
-  /* .grid-item:hover {
-    transform: translateY(-0.5%);
-    box-shadow: 0 2rem 4rem rgba(255, 253, 253, 0.5);
-  } */
-  
-  .card-img {
-    display: none;
+  .image-content,
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+  }
+  .image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+  .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
     width: 100%;
-    height: 8rem;
+    background-color: #4070F4;
+    border-radius: 25px 25px 0 25px;
+  }
+  .overlay::before,
+  .overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+  }
+  .overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+  }
+  .card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+  }
+  .card-image .card-img{
+    height: 100%;
+    width: 100%;
     object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070F4;
   }
-  
-  .card-content {
-    padding: 15px;
-  }
-  
-  .card-header {
-    font-size: 20px;
+  .name{
+    font-size: 18px;
     font-weight: 500;
-    color: white;
-    /* margin-bottom: 1.5rem; */
+    color: #333;
+  }
+  .description{
+    font-size: 14px;
+    color: #707070;
     text-align: center;
   }
+  .button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button:hover{
+    background: #265DF2;
+  }
   
-  .container-4 .konten-4 p{
-    padding-top: 1rem;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-weight: 100;
-    color: #808080;
-}
+  .swiper-navBtn{
+    color: #6E93f7;
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color: #4070F4;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 35px;
+  }
+  .swiper-button-next{
+    right: 0;
+  }
+  .swiper-button-prev{
+    left: 0;
+  }
+  .swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #4070F4;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+  }
+
+/* Container 5 */
 
 .container-5 {
     background-color: #13141F;
     width: 100%;
-    height: 45vh;
+    height: 365px;
     color: white;
-    box-sizing: border-box;
+   
 }
 
 .container-5 .konten-5 {
@@ -274,7 +350,7 @@ a{
 }
 
 .container-5 .konten-5 p {
-    /* font-family: Arial, Helvetica, sans-serif; */
+ 
     font-weight: 100;
     color: #808080;
 }
@@ -286,13 +362,13 @@ a{
 .container-5 .konten-5 p:nth-last-child(1) {
     margin-top: 1.5rem;
 }
-
+ /* container 6 */
 .container-6 {
     background-color: #21212C;
     width: 100%;
-    height: 40vh;
+     height: 300px;
     color: white;
-    box-sizing: border-box;
+    
 }
 
 .container-6 .konten-6 {
@@ -301,22 +377,19 @@ a{
 }
 
 .container-6 .konten-6 p {
-    padding-top: 1rem;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    padding: 1rem 1rem;
     font-weight: 100;
     color: #808080;
 }
 
 .container-6 .konten-6 p:nth-last-child(1) {
-    color: white;
-    font-size: 19px;
+  font-size: 19px;
     margin-top: 1.5rem;
-    padding-top: 15px;
-    background-color: #598EF3;
+    background-color: #111C2C;
     border-radius: 30px;
-    height: 2.2rem;
-    width: 13rem;
-    margin-left: 42.5%;
+    padding: 13px 65px 13px 65px;
+    width: fit-content;
+    margin: auto;
 }
 
 /* scrollbar */

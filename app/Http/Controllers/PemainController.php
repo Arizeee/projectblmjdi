@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\pemain;
+use App\Models\Game;
 class PemainController extends Controller
 {
     public function pemain(Request $request){
@@ -18,7 +19,8 @@ class PemainController extends Controller
     }
 
     public function tambahpemain(){
-        return view('data_pemain.tambahdatapemain');
+        $game = Game::all();
+        return view('data_pemain.tambahdatapemain', ['game'=> $game]);
     }
 
     public function insertpemain(Request $request){

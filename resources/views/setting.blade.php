@@ -46,9 +46,7 @@
       <nav>
           <ul>
               <li><a href="/index">Home</a></li>
-              <li><a href="/index">About Us</a></li>
-              <li><a href="/index">Projects</a></li>
-              <li><a href="/become">Become</a></li> 
+              <li><a href="/about-us">About Us</a></li> 
             
             </ul>
       </nav>
@@ -101,7 +99,7 @@
       <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p> -->
       
       <div class="buttons">
-         <a href="#" class="buy" >Settings</a>
+         <a href="/logout" class="buy" >Logout</a>
        <input type="button" value="">
       </div>
      <div class="garis"></div>

@@ -360,11 +360,15 @@ nav ul li a:hover{
 /* CARDDD */
 .propill{
     top:0; left:0;
-    align-items: center;
-    justify-content: center;
+    /* padding: 0 10px 0; */
+    align-items: start;
+    width: 100%;
+    /* justify-content: center; */
     margin-left: 50px;
     margin-top: 50px;
-  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 3rem
  }
  
  .propill .previeww{
@@ -732,13 +736,11 @@ footer{
 <body>
   <div class="navbarr">
     <header>
-    <a href="#" class="logo">Macoyyy</a>
+    <a href="/index" class="logo">Macoyyy</a>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="/become">Became</a></li> 
+            <li><a href="/index">Home</a></li>
+            <li><a href="/about-us">About Us</a></li> 
           
           </ul>
     </nav>
@@ -790,105 +792,26 @@ footer{
             <div class="card">   
 
                 <div class="propill">
-
+                  @foreach ($mahes as $d)
                  <div class="previeww" data-target="p-4">
                      <!-- <i class="fas fa-times"></i> -->
-                     <img src="image/WhatsApp Image 2022-11-22 at 13.36.19 (1).jpeg" alt="">
-                        <h3></h3>
-           <!-- <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <span>( 250 )</span>
-           </div> -->
-                        <p>Pilih Akuu, dijamin menang dan dapatkan bundle gratis</p>
-                        <div class="pricee">{{ $data->nama_game }}</div>
+            <img src="{{'/fotopemain/'. $d->foto }}" alt="" style="width: 100px; height: 100px;">
+                     
+                        <p>{{ $d->name }} <br>
+                          "cari di pencarian chat "
+                        </p>
+                        <h3>{{$d->username}}</h3>
+                        <p>{{$d->keterangan}}</p>
+                        <div class="pricee"></div>
                         <div class="buttons">
                            <a href="/chatify" class="cart">Chat</a>
                         </div>
                  </div>
-     
-       
-        
+                  @endforeach
+
                  </div> 
 
-                 <div class="propill">
 
-                  <div class="previeww" data-target="p-4">
-                      <!-- <i class="fas fa-times"></i> -->
-                      <img src="image/WhatsApp Image 2022-11-22 at 13.36.19 (1).jpeg" alt="">
-                         <h3>mmhdrvlfrds</h3>
-            <!-- <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <span>( 250 )</span>
-            </div> -->
-                         <p>Pilih Akuu, dijamin menang dan dapatkan bundle gratis</p>
-                         <div class="pricee">Valorant</div>
-                         <div class="buttons">
-                          <a href="#" class="buy">Order</a>
-                            <a href="#" class="cart">Chat</a>
-                         </div>
-                  </div>
-      
-        
-         
-                  </div> 
-                  <div class="propill">
-
-                    <div class="previeww" data-target="p-4">
-                        <!-- <i class="fas fa-times"></i> -->
-                        <img src="image/WhatsApp Image 2022-11-22 at 13.36.19 (1).jpeg" alt="">
-                           <h3>mmhdrvlfrds</h3>
-              <!-- <div class="stars">
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i>
-                 <span>( 250 )</span>
-              </div> -->
-                           <p>Pilih Akuu, dijamin menang dan dapatkan bundle gratis</p>
-                           <div class="pricee">Valorant</div>
-                           <div class="buttons">
-                            <a href="#" class="buy">Order</a>
-                              <a href="#" class="cart">Chat</a>
-                           </div>
-                    </div>
-        
-          
-           
-                    </div> 
-                    <div class="propill">
-
-                      <div class="previeww" data-target="p-4">
-                          <!-- <i class="fas fa-times"></i> -->
-                          <img src="image/WhatsApp Image 2022-11-22 at 13.36.19 (1).jpeg" alt="">
-                             <h3>mmhdrvlfrds</h3>
-                <!-- <div class="stars">
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <i class="fas fa-star"></i>
-                   <span>( 250 )</span>
-                </div> -->
-                             <p>Pilih Akuu, dijamin menang dan dapatkan bundle gratis</p>
-                             <div class="pricee">Valorant</div>
-                             <div class="buttons">
-                              <a href="#" class="buy">Order</a>
-                                <a href="#" class="cart">Chat</a>
-                             </div>
-                      </div>
-          
-            
-             
-                    </div> 
 
 
 

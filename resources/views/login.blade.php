@@ -28,10 +28,10 @@
         <h1 class="barr"><span class="spannn">MABAR</span> COYYY</h1> 
     </div>
    <div class="gambar">
-    <img src="images/logoWeb.png" alt="">
+    <img src="assets/images/logoWeb.png" alt="">
    </div>
  <div class="gambarr">
-        <img src="img/weblogo-removebg-preview.png" alt="">
+        <img src="assets/images/weblogo-removebg-preview.png" alt="">
     </div>
    
     <div class="login-wrap">

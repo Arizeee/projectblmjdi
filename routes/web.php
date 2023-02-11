@@ -83,7 +83,7 @@ Route::post('/setting/updateplayer/{id}', [UserController::class, 'updateplayer'
 Route::get('/setting', [UserController::class, 'index'])->name('setting')->middleware('auth');
 Route::post('/settings', [UserController::class, 'edit'])->middleware('auth');
 Route::get('/userdetail/{id}', [UserDetailController::class, 'userdetail'])->middleware('auth');
-Route::get('/become', [BecomeController::class, 'become']);
+Route::get('/about-us', [BecomeController::class, 'become']);
 
 
 

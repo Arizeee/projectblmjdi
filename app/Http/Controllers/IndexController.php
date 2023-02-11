@@ -10,10 +10,10 @@ class IndexController extends Controller
 {
     
     public function game($id){
+        $mahes = Pemain::where('game_id',$id)->get();
         $data = Game::find($id);
-        $tai = Pemain::find($id);
 
-        return view('game-detail', compact('data'));
+        return view('game-detail', compact('data', 'mahes'));
     }
     public function tampilan(){
         $data = Game::all();

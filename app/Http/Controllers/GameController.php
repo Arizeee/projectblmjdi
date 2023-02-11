@@ -22,6 +22,7 @@ class GameController extends Controller
     }
 
     public function tambahgames(){
+        $data = Pemain::all();
         return view('data_game.tambahgames');
     }
 
@@ -45,6 +46,11 @@ class GameController extends Controller
     public function updategames(Request $request, $id){
         $data = Game::find($id);
         $data->update($request->all());
+        if ($request->hasFile('foto')){
+            $request->file('foto')->move('fotopemain/', $request->file('foto')->getClientOriginalName());
+            $data->foto = $request->file('foto')->getClientOriginalName();
+            $data->save();
+        }
         return redirect()->route('data_game.games')->with('success','Data berhasil diubah');
     }
 

@@ -339,6 +339,7 @@ nav ul li a:hover{
     justify-content: center;
     margin-left: 50px;
     margin-top: 50px;
+    display: flex;
   
  }
  

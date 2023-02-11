@@ -24,7 +24,7 @@
               <input id="inp" type="search" placeholder="Search..." name="search" style="width: 25%; height: 30px; margin-left:75%;">
             </div>
             </form>
-        <table id="tbl-1">
+        <table id="tbl-1" style="width: 100%;">
          <tr>
             <th scope="col" style="width: 2px;">Id</th>
             <th scope="col">Foto</th>

@@ -330,7 +330,7 @@ body{
    max-width: 1100px;
   /* margin: auto; */
    padding:3rem 2rem;
-   margin-left: 4%;
+   margin-left: 9%;
   
 }
 
@@ -524,7 +524,7 @@ body{
    place-items: center;
  /* background-color: aquamarine; */
 
-   /* overflow: hidden; */
+   overflow: hidden;
    cursor: pointer;
 }
 

@@ -20,17 +20,15 @@
       </ul>
     </div>
     <div class="contain">
-      <div class="hero-img">
+      <div class="hero-img" style="width: 88%">
         <div class="hero-img-text">
           <p>Valorant</p>
           <h3>Best Tactical Shooter Game.</h3>
-          <button>Play Free</button>
+          {{-- <button>Play Free</button> --}}
           <img src="assets/images/Phoenix_Artwork_Full-removebg-preview.png" alt="">
         </div>
       </div>
-      <div class="kanannya-hero-img">
-        <p>Kotak Ke-2</p>
-      </div>
+      
     </div>
     <div class="contain-1">
       <p>List Games (Scroll)</p>
@@ -108,7 +106,7 @@
           {{-- <div class="btn-data">
             {{-- <p><a href="">+ Tambah</a></p> --}}
           {{-- </div>  --}}
-          <table id="tbl">
+          <table id="tbl" style="width:  100% ">
             <tr>
               <th scope="col">Foto</th>
               <th scope="col">Game</th>

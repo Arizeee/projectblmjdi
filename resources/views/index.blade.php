@@ -40,10 +40,8 @@
       <a href="#" class="logo">Macoyyy</a>
       <nav>
           <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="/become">Became</a></li> 
+              <li><a href="/index">Home</a></li>
+              <li><a href="/about-us">About us</a></li> 
             
             </ul>
       </nav>
@@ -71,21 +69,21 @@
               <div class="slideee slide-1">
                   <div class="slide-content">
                       <h2>DAPATKAN TEMAN MABAR MU DISINI <br>SEGERA JOIN DAN MAINKAN BERSAMA <br>TEMAN BARUMU</h2>
-                      <button><a href="/">START NOW</a></button>
+                      <button><a href="/index">START NOW</a></button>
                   </div>
                   <div class="shadow"></div>
               </div>
               <div class="slideee slide-2">
                   <div class="slide-content">
                       <h2>DAPATKAN TEMAN MABAR MU DISINI <br>SEGERA JOIN DAN MAINKAN BERSAMA <br>TEMAN BARUMU</h2>
-                      <button><a href="#">START NOW</a></button>
+                      <button><a href="/index">START NOW</a></button>
                   </div>
                   <div class="shadow"></div>
               </div>
               <div class="slideee slide-3">
                   <div class="slide-content">    
                       <h2>DAPATKAN TEMAN MABAR MU DISINI <br>SEGERA JOIN DAN MAINKAN BERSAMA <br>TEMAN BARUMU</h2>
-                      <button><a href="#">START NOW</a></button>
+                      <button><a href="/index">START NOW</a></button>
                   </div>
                   <div class="shadow"></div>
               </div>
@@ -217,73 +215,6 @@
    
    </div>
 </div>
-<!-- 
-<div class="sliderr" id="sliderr">
-   <div class="slide-trackk"> -->
-
-      <!-- 9slide -->
-      
-      <!-- <div class="slidee">
-         <img src="assets/images/1.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/2.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/3.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/4.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/5.png" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/6.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/1.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/2.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/3.jpeg" alt="" srcset="">
-      </div> -->
-
-       <!-- 9slide -->
-       <!-- <div class="slidee">
-         <img src="assets/images/4.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/5.png" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/6.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/1.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/2.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/3.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/4.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/5.png" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/6.jpeg" alt="" srcset="">
-      </div>
-   </div>
-</div>
-
-      </div> -->
-
 <h3 class="titlee" id="titlee"> Popular Player </h3>
 
 <!-- Fade in & out -->
@@ -302,7 +233,7 @@
       <div class="top">
         <div class="logo-details">  
           <!-- <i class="fab fa-slack"></i> -->
-          <a href="#" class="logo">Mabar Coyyy</a>
+          <a href="#" class="logo">Macoyyy</a>
         </div>
         <div class="media-icons">
           <a href="#"><i class="fab fa-facebook-f"></i></a>

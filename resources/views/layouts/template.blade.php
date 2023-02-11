@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Dashboard @yield('title') </title>
-    <link rel="stylesheet" href="assets/css/dashstyle.css">
+    <link rel="stylesheet" href=" {{asset('assets/css/dashstyle.css')}}">
     <!-- Boxiocns CDN Link -->
 
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -41,24 +41,24 @@
         </ul>
       </li>
       <li>
-        <a href="#">
+        <a href="/setting">
           <i class='bx bx-cog' ></i>
           <span class="link_name">Setting</span>
         </a>
         <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Setting</a></li>
+          <li><a class="link_name" href="/setting">Setting</a></li>
         </ul>
       </li>
       <li>
     <div class="profile-details">
       <div class="profile-content">
-        <img src="image/Kazuha.jpg" alt="profileImg">
+      <img src="profile/{{ auth()->user()->foto }}" alt="tes">
       </div>
       <div class="name-job">
         <div class="profile_name">Kazuhaaa</div>
         <div class="job">Admin</div>
       </div>
-      <i class='bx bx-log-out' ></i>
+      <a href="/logout"><i class='bx bx-log-out'></i></a>
     </div>
   </li>
 </ul>
@@ -68,7 +68,7 @@
   </section>
 
   <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-  <script src="script.js"></script>
+  <script src="assets/js/scriptdash.js"></script>
 
 </body>
 </html>

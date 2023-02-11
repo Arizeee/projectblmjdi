@@ -58,10 +58,8 @@
          <a href="#" class="logo">Macoyyy</a>
          <nav>
              <ul id="uli">
-                 <li><a href="#">Home</a></li>
-                 <li><a href="#">About Us</a></li>
-                 <li><a href="#">Projects</a></li>
-                 <li><a href="#">Blog</a></li>
+                 <li><a href="/">Home</a></li>
+                 <li><a href="/about-us">About Us</a></li>
                
              </ul>
          </nav>
@@ -229,72 +227,7 @@
    
    </div>
 </div>
-<!-- 
-<div class="sliderr" id="sliderr">
-   <div class="slide-trackk"> -->
 
-      <!-- 9slide -->
-      
-      <!-- <div class="slidee">
-         <img src="assets/images/1.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/2.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/3.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/4.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/5.png" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/6.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/1.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/2.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/3.jpeg" alt="" srcset="">
-      </div> -->
-
-       <!-- 9slide -->
-       <!-- <div class="slidee">
-         <img src="assets/images/4.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/5.png" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/6.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/1.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/2.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/3.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/4.jpeg" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/5.png" alt="" srcset="">
-      </div>
-      <div class="slidee">
-         <img src="assets/images/6.jpeg" alt="" srcset="">
-      </div>
-   </div>
-</div>
-
-      </div> -->
 
 <h3 class="titlee" id="titlee"> POPULAR PLAYER </h3>
 
@@ -335,7 +268,7 @@ scrollButton.addEventListener("click", () => {
      <div class="top">
        <div class="logo-details">  
          <!-- <i class="fab fa-slack"></i> -->
-         <a href="#" class="logo">Mabar Coyyy</a>
+         <a href="/" class="logo">Macoyyy</a>
        </div>
        <div class="media-icons">
          <a href="#"><i class="fab fa-facebook-f"></i></a>

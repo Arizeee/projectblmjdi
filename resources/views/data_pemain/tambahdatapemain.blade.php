@@ -37,6 +37,18 @@
                                 <td><input type="text" name="keterangan" required="required" placeholder="keterangan" style="width: 250px;"></td>
                             </tr>
                             <tr>
+                                <td>Game</td>
+                                <td>
+                                    <select name="game_id" id="">
+                                        @foreach ($game as $g)
+                                        <option value="{{$g->id}}">{{$g->nama_game}}</option>
+
+                                        @endforeach
+                                    </select>
+                                </td>
+                            </tr>
+                            
+                            <tr>
                                 <td>
                                     <button class="ara" type="submit"><p>Save</p></button>
                                 </td>
